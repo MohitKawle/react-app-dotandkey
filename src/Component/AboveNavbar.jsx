@@ -7,15 +7,25 @@ const divStyle={
   width:"100%",
   height:"20px",
  textAlign:Center,
- marginLeft:"auto",
+padding:"auto",
   color:"red",
-  backgroundColor:"black",
+  backgroundColor:"darkgrey",
+  display:"flex",
+}
+const divStyle1={
+  margin:"auto",
 }
 
-  return (
-    <div style={divStyle}> 
+  return (<>
+ <div style={divStyle}>
+ <div style={divStyle1}> 
     <p>3% off on Prepaid Orders</p>
     </div>
+ </div>
+  
+   
+  </>
+ 
   )
 }
 
