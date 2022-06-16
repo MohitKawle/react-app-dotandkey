@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text } from '@chakra-ui/react'
+import { Flex, Text,Box } from '@chakra-ui/react'
 import Carouseltwo from './Carouseltwo'
 
 const LovedBy = () => {
@@ -13,12 +13,12 @@ const LovedBy = () => {
   return (
     <div style={{margin:'auto'}}>
         <div style={{textAlign:'center'}}>
-        <Text fontSize={'xl'}>loved by</Text>
+        <Text fontSize={'2xl'}>loved by</Text>
         </div>
         <div style={{textAlign:'center'}}>
-           <Text fontSize={'2xl'}>Over <i>10 Lakh</i> Customers     </Text>
+           <Text fontSize={'4xl'}>Over <i>10 Lakh</i> Customers     </Text>
         </div>
-       
+      
         <div style={c2}>
             
         <Carouseltwo/>

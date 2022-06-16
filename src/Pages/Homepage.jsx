@@ -5,7 +5,12 @@ import Carouselone from '../Component/Carouselone'
 
 import CumstomerReviews from '../Component/CumstomerReviews'
 import FiveProducts from '../Component/FiveProducts'
+import GuideToSkinCare from '../Component/GuideToSkinCare'
+import IntheSpotLight from '../Component/IntheSpotLight'
 import LovedBy from '../Component/LovedBy'
+import NewArrival from '../Component/NewArrival'
+import OurBestSellers from '../Component/OurBestSellers'
+import ShopbyIngredient from '../Component/ShopbyIngredient'
 import SkincareJournal from '../Component/SkincareJournal'
 
 const Homepage = () => {
@@ -39,7 +44,12 @@ const Homepage = () => {
       <Carouselone/>
     {/* <CaptionCarousel cards={cards}/> */}
     <LovedBy/>
-    
+    <OurBestSellers/>
+    <NewArrival/>
+    <IntheSpotLight/>
+    <ShopbyIngredient/>
+    <GuideToSkinCare/>
+    {/* big images */}
       <CumstomerReviews />
       <SkincareJournal/>
      

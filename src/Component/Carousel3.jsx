@@ -1,5 +1,6 @@
 import "react-alice-carousel/lib/alice-carousel.css";
-import  "./Images1"
+
+
 
 
 
@@ -17,11 +18,12 @@ const responsive = {
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-   <img style={{width:'50%'}} src="./Images1/1" onDragStart={handleDragStart} role="presentation" alt="1" />,
-   <img style={{width:'50%'}} src="./Images1/2" onDragStart={handleDragStart} role="presentation" alt="2"/>,
-   <img style={{width:'50%'}} src="./Images1/3" onDragStart={handleDragStart} role="presentation" alt="3"/>,
-   <img style={{width:'50%'}} src="./Images1/4" onDragStart={handleDragStart} role="presentation" alt="2"/>,
-   <img style={{width:'50%'}} src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1-GreenClayListing_1.jpg?v=1649655908" onDragStart={handleDragStart} role="presentation" alt="2"/>,
+   <img style={{width:'50%'}} src="https://animated-banoffee-92499a.netlify.app/Images1/img1.PNG" onDragStart={handleDragStart} role="presentation" alt="1" />,
+   <img style={{width:'50%'}} src="https://animated-banoffee-92499a.netlify.app/Images1/img2.PNG" onDragStart={handleDragStart} role="presentation" alt="2"/>,
+   <img style={{width:'50%'}} src="https://animated-banoffee-92499a.netlify.app/Images1/img3.PNG" onDragStart={handleDragStart} role="presentation" alt="3"/>,
+   <img style={{width:'50%'}} src="https://animated-banoffee-92499a.netlify.app/Images1/img4.PNG" onDragStart={handleDragStart} role="presentation" alt="2"/>,
+   <img style={{width:'50%'}} src="https://animated-banoffee-92499a.netlify.app/Images1/img5.PNG" onDragStart={handleDragStart} role="presentation" alt="2"/>,
+   <img style={{width:'50%'}} src="https://animated-banoffee-92499a.netlify.app/Images1/img6.PNG" onDragStart={handleDragStart} role="presentation" alt="2"/>,
 ];
 
 const Carousel3 = () => {
